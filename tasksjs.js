@@ -175,6 +175,7 @@ function secondpopup(itemList,sinput){
     var tdiv1=document.createElement("div")
     // tdiv1.setAttribute("id",bb1)
     var tspan1=document.createElement("span")
+    var br=document.createElement("br")
     tspan1.innerText=sinput.value;
     
     tspan1.classList.add("ttx1")
@@ -184,6 +185,7 @@ function secondpopup(itemList,sinput){
     // tbutton.setAttribute("id",bb1)
     tdiv1.appendChild(tspan1)
     tdiv1.appendChild(tbutton)
+    tdiv1.appendChild(br)
     
     itemList.appendChild(tdiv1)
     tbutton.addEventListener("click",function(){

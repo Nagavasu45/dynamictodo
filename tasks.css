@@ -116,6 +116,7 @@ body{
     font-size: 30px;
 }
 .colr3{
+    color: white;
     font-size: 30px;
     
 }
@@ -156,7 +157,7 @@ display: flex;
     flex-wrap: wrap;
     margin-bottom: 100px;
     justify-content: space-between;
-    position: relative;
+    
     
     
     
@@ -167,7 +168,7 @@ display: flex;
     background-color:white;
     border-radius: 9px;
     color:rgb(180, 88, 88);
-    margin-bottom: 100px;
+    margin-bottom: 50px;
     position: relative;
     text-align: center;
     
@@ -241,9 +242,10 @@ display: flex;
     color: white;
     font-size: 15px;
     text-align: center;
+    margin-left: 10px;
 }
 .tb1{
-    height: 20px; 
+    height: 25px; 
     width: 100px;
     border-radius: 20px;
     color: white;
@@ -319,126 +321,4 @@ display: flex;
     top: 40px;
     
 }
-@media only screen and (max-width: 600px){
-    .logo1{
-        position: fixed;
-        bottom: 0px;
-        height: 50px;
-        width: 100%;
-        display: flex;
-        background-color: white;
-        z-index: 1;
-        display: none;
-    }
-    .first{
-        position: fixed;
-        height: 50px;
-        width: 100%;
-        margin-left: 0px;
-        z-index: 1;
-        
-        background-color: white;
-        display: none;
-    }
-    .second{
-        position: fixed;
-        height: 100%;
-        width: 50px;
-        margin-left: 0px;
-        
-        background-color: white;
-        display: none;
-    
-    } 
-    #cardcontainer{
-        width: 375px;
-        height: auto;  
-        position: absolute;
-        top: 150px;
-        left: 200px;
-        bottom: 50px;
-        flex-wrap: wrap;
-        margin-bottom: 100px;
-        justify-content: space-between;
-     
-        
-        
-        
-    }
-    #hide1{
-        position: absolute;
-        top: 20px;
-        left: 20px;
-        display: flex;
-    }
-    .u3{
-        width: 30px;
-        height: 30px;
-        background-color:rgb(70, 122, 199) ;
-        border-radius: 50%;
-        font-size: 30px;
-        text-align: center;
-        font-weight: bolder;
-        margin-left: 160px;
-        text-decoration: none;
-        border: none;
-        position: absolute;
-        top: 20px;
-        left: 40px;
-    }
-    .u4{
-        color: white;
-        font-size: 30px;
-        text-decoration: none;
-        border: none;
-        position: absolute;
-        top: 20px;
-        left: 220px;
-        
-    
-    }
-    #cardcontainer{
-        width: 375px;
-        height: auto;
-        
-        /* background-color:aqua;  */
-        display: flex;
-        /* position: absolute; */
-        top: 100px;
-        left: 20px;
-        bottom: 50px;
-        /* flex-wrap: wrap; */
-        margin-bottom: 10px;
-        margin-left: 20px;
 
-        justify-content: space-between;
-        align-items: center;
-        position: relative;
-        
-        
-        
-    }
-    .popupbox{
-        height: 150px;
-        width: 300px;
-        /* border: 2px solid rgb(172, 96, 96); */
-        border-radius: 10px;
-        background-color:white;
-        position:absolute;
-        left: 40px;
-        top: 200px;
-        text-align: center;
-    }
-    .newlyadd{
-        min-height: 300px;
-        width: 200px;
-        background-color:white;
-        border-radius: 9px;
-        color:rgb(180, 88, 88);
-        margin-bottom: 10px;
-        margin-left: 55px;
-        position: relative;
-        text-align: center;
-        
-    }
-}
