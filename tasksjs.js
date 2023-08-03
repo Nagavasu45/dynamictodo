@@ -136,12 +136,12 @@ function addcard(){
         cardContainer.appendChild(sdiv)
         sb1.addEventListener("click",function(){
             
-            secondpopup(itemList,sinput); 
+            secondpopup(itemList,sinput,sdiv); 
         })
         sb2.addEventListener("click",function(){
             sdiv.classList.add("hide")
         })
-        // secondpopup(itemList);    
+          
      })
     
     hideAddTask();
@@ -170,7 +170,7 @@ function bbh(){
 
 
 // second pop up box
-function secondpopup(itemList,sinput){
+function secondpopup(itemList,sinput,sdiv){
     // bb1++;
     var tdiv1=document.createElement("div")
     // tdiv1.setAttribute("id",bb1)
@@ -198,5 +198,7 @@ function secondpopup(itemList,sinput){
         
 
     })
+
+    sdiv.classList.add("hide") 
 
 }

@@ -29,6 +29,15 @@ body{
     background-color: white;
 
 }
+.third{
+    position: fixed;
+    height: 100%;
+    width: 50px;
+    /* margin-right: 0px; */
+    margin-left: 97%;
+    
+    background-color: white; 
+}
 .u1{
     width: 40px;
     height: 40px;
@@ -322,7 +331,7 @@ display: flex;
     
 }
 
-@media only screen and (max-width:600px){
+@media only screen and (min-width:375px) and (max-width:600px){
     body{
         background-color: black;
         margin: 0px;
@@ -659,6 +668,16 @@ display: flex;
         left: 0px;
         top: 100px;
         
+    }
+    .third{
+        position: fixed;
+        height: 100%;
+        width: 50px;
+        /* margin-right: 0px; */
+        margin-left: 97%;
+        
+        background-color: white; 
+        display: none;
     }
 
 }
@@ -1010,6 +1029,16 @@ display: flex;
         left: 300px;
         top: 100px;
         
+    }
+    .third{
+        position: fixed;
+        height: 100%;
+        width: 50px;
+        /* margin-right: 0px; */
+        margin-left: 97%;
+        
+        background-color: white; 
+        display: none;
     }
 
 }
